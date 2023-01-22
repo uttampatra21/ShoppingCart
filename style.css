@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans&family=Petit+Formal+Script&family=Roboto:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    background-color: rgb(215, 254, 254);
+    margin: 30px 80px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
